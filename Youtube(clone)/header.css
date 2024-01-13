@@ -1,0 +1,135 @@
+
+.navbar{
+    background-color: white;
+    height: 56px;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: .3fr 1fr .4fr;
+    grid-template-rows: 56px;
+    position: fixed;
+    z-index: 1000;
+}
+.left-section{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:25px;
+    margin-right: 115px;
+}
+
+.hamburger-menu{
+    width: 22px; 
+    height: 22px;
+}
+
+.youtube-logo{
+    width: 89px; 
+    height: 22px;
+}
+.middle-section{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+
+.search-input{
+    flex: 1;
+    height: 40px;
+    width: 515px ;
+    border: 1px solid #dbdbdb;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);    
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 10px 20px;
+    flex-shrink: 1;
+}
+.search-input::placeholder {
+    font-family: Roboto, Arial;
+    font-size: 16px;
+  }
+
+.search-btn{
+    height:40px;
+    width:50px;
+    padding: 0 30px;
+    background-color:rgb(248,248,248);
+    border: 1px solid #dbdbdb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius:25px ;
+    margin-right: 15px;
+    cursor: pointer;
+
+    position: relative;
+}
+
+.search-btn .tooltip, .voice-search-btn .tooltip{
+    position:absolute;
+    background-color: gray;
+    color: white;
+    padding: 6px;
+    border-radius: 2px;
+    bottom: -40px;
+    opacity: 0;
+    font-size: 12px;
+    font-family: roboto, arial;
+    white-space: nowrap;
+    transition: opacity 0.15s;
+   
+}
+
+.search-btn:hover .tooltip, .voice-search-btn:hover .tooltip {
+  opacity: 1;
+}
+.search-icon{   
+    width: 23px;
+    height: 23px;
+}
+
+.voice-search-btn{
+    width: 39px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.voice-search-icon{
+    width: 23px;
+    height: 23px;
+}
+
+.right-section{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 25px;
+    margin-left: 120px;
+    margin-top: 10px;
+    
+    
+}
+
+.upload-icon {
+    height: 24px;
+}
+  
+.notifications-icon {
+    height: 24px;
+}
+
+.channel-picture{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+
+
+

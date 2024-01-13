@@ -1,0 +1,149 @@
+#CardSection{
+    background-color:  #212121;
+    color: white;
+}
+
+#CardSection #news h1{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#CardSection #cards{
+    display: flex;
+}
+
+#CardSection #cards div{
+    width: 25%;
+    height: 200px;
+    overflow: hidden;
+}
+
+#CardSection #cards div img{
+    width: 100%;
+}
+
+#CardSection #cards div img:hover{
+     transform: scale(1.1);   /* default zoom in is scale:(1.0); */
+     transition: 1s;
+}
+
+
+#CardSection #cards div p{
+    position: relative;   /*position: relative-- content access center point  ||   position: absolute --parent element access center point*/
+    top: -58px;
+    padding-left: 20px;
+    font-weight: 600;
+}
+
+#HeaderSection1{
+    background-color: #212121;
+    color: white;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 1px;
+}
+#HeaderSection1 ul{
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    list-style-type: none;
+    font-size: 14px;
+    padding-left: 30px;
+}
+
+.super:hover{
+    color: red;
+}
+#imageSection img{
+    width: 100%;
+}
+
+#HeaderSection3{
+    background-color: #212121;
+    color: white;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 1px;
+}
+#HeaderSection3 ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+    font-size: 14px;
+    padding-left: 30px;
+}
+#iconsection{
+    display: inline-block;
+    background-color:  #212121;
+    color:  #b4b2b2;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    
+}
+#iconsection div{
+    display:inline-block;
+    width: 346px;
+    height: 137px;
+   padding: 30px 0px 0px 70px;
+    text-align: center;
+}
+#iconsection img{
+    width: 70px;
+    height: 70px;
+}
+#iconsection p{
+    margin: 10px 5px 10px 0px;
+}
+
+.fa.fa-angle-right{
+    margin-left: 10px;
+}
+#footer{
+    background-color: #e5e3e3;
+}
+#footer #icon{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 18px;
+    padding-right: 30px;
+    text-align: center; 
+}
+/* #footer p{
+    font-weight: 500;
+    margin-top: 15px;
+} */
+
+#footer i{
+    font-size: 30px;
+}
+#info{
+    padding: 0px 15px 30px 15px;
+    display: inline-block;
+    align-items: center;
+}
+#info div{
+    display: inline-block;
+    padding-right: 60px;
+}
+#info ul{
+    list-style: none;
+}
+#footer #last{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 10px;
+    line-height: 22px;
+}
+#footer #last ul{
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: end;
+    font-weight: 600;
+}

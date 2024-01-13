@@ -1,0 +1,525 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: whitesmoke;
+}
+#headerSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#headerSection #left h1{
+    font-size: 15px;
+}
+#headerSection #left h1 span{
+    font-weight:100;
+}
+#headerSection #right ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style-type: none;
+}
+#headerSection #right ul li button{
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 72px;
+    height: 27px;
+    background-color: transparent;
+    color: white;
+
+}
+#bodySection{
+    color: white;
+    text-align: center;
+    margin-top: 86px;
+}
+#bodySection h1{
+    font-size: 52px;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+#bodySection p{
+    font-size: 18px;
+
+}
+#bodySection button{
+    width: 176px;
+    height: 44px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-top:24px;
+    color: #666;
+
+}
+
+#bodySection #learn{
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgb(196, 195, 195);
+}
+
+#contentSection{
+    text-align: center;
+    background-color: white;
+    width: 70%;
+    margin: auto; /* margin: auto;   to center the section*/
+    margin-top:125px ;
+    padding-top: 30px;
+    border-radius: 5px;
+    color: #737373;
+    box-shadow: 0px 2px 0px #e5e5e5;
+}
+#contentSection h1{
+    font-size: 35px;
+    font-weight:300;
+
+}
+#contentSection p{
+    font-size: 18px;
+    border-top: 2px solid #e5e5e5;
+    padding-top: 25px;
+    padding-bottom: 60px;
+    width: 80%;
+    margin:auto;
+}
+#contentSection img{
+    display: block;
+    width: 100%;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+#menu{
+    display: none;
+}
+#iconSection{
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    margin-top: 25px;
+    border-radius: 6px;
+    text-align: center;
+    color:#646a83;
+    padding: 44px 0px 44px 0px;
+    box-shadow: 0px 2px 0px #e5e5e5;
+}
+/* #iconSection section{
+    margin: 30px;
+} */
+#iconSection div{
+    display: inline-block;
+    text-align: center;
+    width: 45%;  
+    font-size: 14px;
+}
+#iconSection div h1{
+    font-size: 25px;
+}
+#iconSection div p{
+    line-height: 25 px;
+}
+
+.fa.fa-bolt{
+    font-size: 40px;
+    color: white;
+    border-radius: 100%;
+    background-color: #e89980;
+    padding: 20px 30px;
+}
+
+.fa.fa-area-chart{
+    font-size: 40px;
+    color: white;
+    border-radius: 100%;
+    background-color: #7fcdb8;
+    padding: 20px 20px;
+}
+.fa.fa-cloud{
+    font-size: 40px;
+    color: white;
+    border-radius: 100%;
+    background-color: #90b0ba;
+    padding: 20px 20px;
+}
+.fa.fa-lock{
+    font-size: 40px;
+    color: white;
+    border-radius: 100%;
+    background-color: #e5cb95;
+    padding: 20px 30px;
+}
+#iconSection #div1{
+    padding: 0px 25px 25px 0px;
+    border-right: 2px solid #e5e5e5;
+    border-bottom:2px solid #e5e5e5;
+    position: relative;
+    left: 3.5px;
+    top: 2px;
+}
+#iconSection #div2{
+    padding: 0px 0px 25px 25px;
+
+}
+#iconSection #div3{
+    padding: 25px 25px 0px 0px;
+}
+
+#iconSection #div4{
+    padding: 25px 0px 0px 25px;
+    border-top: 2px solid #e5e5e5;
+    border-left:2px solid #e5e5e5;
+
+}
+
+
+#imageSection{
+    width: 70%;
+    margin: auto;
+    color: #646464;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+#imageSection br{
+    display: none;
+}
+
+#imageSection div{
+    text-align: center;
+    width: 48%;
+    border-radius: 5px;
+    background-color: white;
+    padding: 0px 0px 44px 0px;
+    box-shadow: 0px 2px 0px #e5e5e5;
+}
+#imageSection div img{
+    width: 100%;
+    border-top-left-radius:5px;
+    border-top-right-radius: 5px;
+}
+#imageSection div p{
+    font-size: 14px;
+    margin-bottom: 30px;
+    line-height: 25px;
+    padding: 0px 20px;
+}
+#imageSection div button{
+    background-color: transparent;
+    border: 2px solid #efefef;
+    border-radius: 6px;
+    padding: 0px 30px;
+    height: 43px;
+    color: #828686;
+    
+}
+#signupSection{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background-color:  #e89980;
+    color:  #f9e6df;
+    padding:55px 0px;
+    margin-top:60px;
+
+}
+#signupSection h1{
+    font-size: 33px;
+    margin-bottom: 16.5px;
+    font-weight: 300;
+}
+#signupSection input{
+    width: 244px;
+    height: 44px;
+    padding: 0px 15px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    margin-top: 14px;
+    
+}
+#signupSection button{
+    background-color: white;
+    color: #e89980;
+    width: 116px;
+    height: 44px;
+    padding: 0px 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 14px;
+    margin-top: 14px;
+}
+::placeholder{
+    color: white;
+    opacity: 0.7;
+}
+#footerSection div{
+    width: 100%;
+    height: 200px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 30px;
+    margin:44px 0px 30px 0px;
+    list-style: none;
+    color: #c6c6c6;
+}
+.icon li a{
+    text-decoration: none;
+    color: #c6c6c6;
+
+}
+.icon li a :hover{
+    color: #777;
+}
+.copyright{
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 13px;
+    padding-bottom: 30px;
+    color: #999;
+
+}
+#li1{
+    border-right: 1px solid #999;
+    padding-right: 15px;
+}
+#li2{
+    border-right: 1px solid #999; 
+     padding-right: 15px;
+}
+.copyright li a{
+    text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------mobile version------------------------- */
+@media (max-width: 600px)
+{
+    #menu{
+        display: inline-block;
+        color: white;
+        background-color: gainsboro;
+        padding: 5px;
+        border-radius: 6px;
+        margin-left: 10px;
+        margin-top: 10px;
+        width: 40px;
+        height: 25px;
+        text-align: center;
+        justify-content: center;
+        
+    }
+    #headerSection{
+        display: none;
+    }
+
+    body{
+        background-size: 200%;
+        background-position-x: center;
+    }
+
+    #bodySection{
+         margin-top: 20px;
+         width: 80%;
+         margin: auto;
+    }
+
+    #bodySection h1{
+        font-size: 35px;
+    }
+
+    #bodySection p{
+        font-size: 18px;
+    }
+
+    #bodySection button{
+        width: 100%;
+    }
+    #contentSection{
+        width: 100%;
+        margin-top:82px ; 
+        box-shadow: none; 
+    }
+    #contentSection img{
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    #contentSection h1{
+        font-size: 25px;
+        font-weight:300;
+    }
+    #contentSection p{
+        width: 90%;
+        text-align: center;
+    }
+    br{
+        display: none;
+    }
+
+    #iconSection{
+        width: 100%;
+        margin-top: 15px;
+        border-radius: 0px;
+        text-align: center;
+        color:#646a83;
+        box-shadow: none;
+       
+    }
+    #iconSection div{
+        display: block;
+        text-align: center;
+        width: 95%;  
+        font-size: 14px;
+        padding: 10px;
+        margin: 10px;
+        box-shadow: none;
+        
+    }
+    #iconSection div h1{
+        font-size: 22px;
+    }
+    #iconSection div p{
+        line-height: 25px;
+    }
+    #iconSection #div1{
+        border: none;
+        padding: 0px 0px 0px 0px;
+    }
+    #iconSection #div2{
+        margin-top: 44px;
+        border-top: 1px solid #e5e5e5;
+        padding: 44px 0px 0px 0px;
+    
+    }
+    #iconSection #div3{
+        margin-top: 44px;
+        border-top: 1px solid #e5e5e5;
+        padding: 44px 0px 0px 0px;
+    }
+    #iconSection #div4{
+        border-top: 1px solid #e5e5e5;
+        margin-top: 44px;
+        padding: 44px 0px 0px 0px;
+        border-left: none;
+       
+    }
+
+    #imageSection{
+        width: 100%;
+        margin: auto;
+        color: #646464;
+        display: block;
+        justify-content: space-between;
+    }
+    #imageSection div h1{
+        font-size: 22px;
+    }
+    #imageSection div{
+        text-align: center;
+        width: 100%;
+        border-radius: 0px;
+        background-color: white;
+        margin-top: 15px;
+    }
+    #imageSection div img{
+        width: 100%;
+        border-top-left-radius:0px;
+        border-top-right-radius: 0px;
+    }
+    #imageSection div button{
+       width: 360px;
+        padding: 0px 30px;
+        height: 43px;
+    } 
+    
+    /* signup section */
+
+    #signupSection{
+        padding: 30px 0px 55px 0px;
+        margin-top:0px;
+    
+    }
+    #signupSection h1{
+        font-size: 28px;
+        margin-bottom: 12.5px;
+    }
+    #signupSection p{
+        font-size: 14px;
+        padding: 0px 10px;
+    }
+    #signupSection input{
+        width: 336px;
+        height: 44px;
+        padding: 0px 14px 0px 14px;
+        margin-left:0px ;
+        
+    }
+    #signupSection button{
+        width: 366px;
+        height: 44px;
+        margin-left: 0px;
+    }
+   
+    /* footer section */
+
+    #footerSection div{
+        width: 100%;
+        height: 240px;
+    }
+    .icon{
+        margin:44px 0px 30px 0px;
+        padding-right: 30px;
+    }
+   
+    
+    .copyright{
+        list-style: none;
+        display: block;
+        margin:auto;
+        font-size: 13px;
+    
+    }
+    .copyright li{
+        margin-bottom: 11px;
+        border: none;
+    };
+    
+    .copyright li a{
+        text-decoration:dashed;
+    }
+    #li1{
+        border-right: none;
+        /* padding-right: 15px; */
+    }
+    #li2{
+        border-right: none; 
+         /* padding-right: 15px; */
+    }
+
+
+}
+
